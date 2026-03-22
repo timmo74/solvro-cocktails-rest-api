@@ -27,7 +27,7 @@ Aplikacja to backendowy system do zarządzania bazą przepisów na koktajle. Poz
 
 1. **Sklonuj repozytorium:**
    ```bash
-   git clone <[LINK_DO_REPOZYTORIUM](https://github.com/timmo74/solvro-cocktails-rest-api/blob/main/README.md)>
+   git clone (https://github.com/timmo74/solvro-cocktails-rest-api/blob/main/README.md)
    cd mysite
 
 2. **Utwórz i aktywuj środowisko wirtualne:**
