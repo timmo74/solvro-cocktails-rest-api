@@ -44,6 +44,6 @@ Aplikacja to backendowy system do zarządzania bazą przepisów na koktajle. Poz
 6.**Tworzenie użytkownika:**
     Aby móc testować dodawanie przepisów i ocenianie, musisz posiadać konto.
 
-    Przez terminal (Konto Admina): Przed uruchomieniem serwera wpisz python manage.py createsuperuser i postępuj zgodnie z instrukcjami.
+    Przez terminal (Konto Admina): Przed uruchomieniem serwera wpisz python manage.py createsuperuser i postępuj zgodnie z                instrukcjami.
 
     Przez API: Uruchom serwer i wyślij żądanie POST z podanym username i password pod endpoint /register/.
