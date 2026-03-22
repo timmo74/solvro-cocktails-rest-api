@@ -6,6 +6,8 @@ Zamieszczam tutaj moje REST API z zadania rekrutacyjnego. Pierwszy raz robiłem 
 Aplikacja to backendowy system do zarządzania bazą przepisów na koktajle. Pozwala na dodawanie składników (w tym alkoholi), komponowanie z nich receptur z określonymi proporcjami oraz wystawianie ocen przez społeczność.
 
 ## Schemat bazy danych
+<img width="773" height="709" alt="image" src="https://github.com/user-attachments/assets/8ca629a9-12f4-4ddd-93e4-7187924f0cb7" />
+
 
 ## Realizacja wymagań:
 
@@ -19,6 +21,7 @@ Aplikacja to backendowy system do zarządzania bazą przepisów na koktajle. Poz
 - [x] **Powiązanie z autorem:** Koktajle są powiązane kluczem obcym z użytkownikiem, który je dodał.
 - [x] **Uprawnienia:** Zastosowano `IsAuthenticatedOrReadOnly` – przeglądać mogą wszyscy, dodawać/oceniać tylko zalogowani.
 - [x] **Schemat bazy danych:** Załączony powyżej.
+      
 
 ## Jak uruchomić projekt lokalnie
 
@@ -44,6 +47,6 @@ Aplikacja to backendowy system do zarządzania bazą przepisów na koktajle. Poz
 6.**Tworzenie użytkownika:**
     Aby móc testować dodawanie przepisów i ocenianie, musisz posiadać konto.
 
-    Przez terminal (Konto Admina): Przed uruchomieniem serwera wpisz python manage.py createsuperuser i postępuj zgodnie z                instrukcjami.
+   Przez terminal (Konto Admina): Przed uruchomieniem serwera wpisz python manage.py createsuperuser i postępuj zgodnie z                instrukcjami.
 
-    Przez API: Uruchom serwer i wyślij żądanie POST z podanym username i password pod endpoint /register/.
+   Przez API: Uruchom serwer i wyślij żądanie POST z podanym username i password pod endpoint /register/.
